@@ -1,0 +1,1 @@
+rm ./src/cmem/module/cmemk.ko -af && make && cp ./src/cmem/api/.libs/libticmem.so* /mnt/hgfs/share/tftpboot/adas_qmsg_app/ -af && make module -f lu.mak && cp ./src/cmem/module/cmemk.ko /mnt/hgfs/share/tftpboot/adas_qmsg_app/ -af
